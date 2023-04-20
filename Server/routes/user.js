@@ -24,7 +24,7 @@ Customer.post("/Register",async(req,res)=>{
     }
 })
 
-Customer.post("SignIn",async(req,res)=>{
+Customer.post("/SignIn",async(req,res)=>{
     try{
         const email = req.body.email;
         const password = req.body.password;
